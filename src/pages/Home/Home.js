@@ -1,4 +1,4 @@
-import styles from './index.module.css'
+import styles from './Home.module.css'
 import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import {apikey} from '../../keyapi/key'
@@ -15,13 +15,15 @@ function Home() {
   
 
     return(
-        <div>
+        <div className={styles.homeComponent}>
             <h1>Movies</h1>
             <ul>
                 {movies.map(movie => {
                     return (
                         <li key={movie.id}>
-                            <a href=""><img src={`${url}${movie.poster_path}`} alt=""/></a>                  
+                            <Link to={`/details/${movie.id}`}>
+                                <img src={`${url}${movie.poster_path}`} alt=""/>
+                            </Link>                  
                             <span>{movie.title}</span>
                         </li>
                     )

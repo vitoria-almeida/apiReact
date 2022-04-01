@@ -1,10 +1,10 @@
-h1 {
+.homeComponent h1 {
     text-align: center;
     margin: 4rem 0;
     font-size: 50px;
 }
 
-ul {
+.homeComponent ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -12,30 +12,30 @@ ul {
     row-gap: 4rem;
 }
 
-li {
+.homeComponent li {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-img {
+.homeComponent img {
     width: 180px;
     border-radius: 1rem;
     margin-bottom: 2rem;
 }
 
-span {
+.homeComponent span {
     font-weight: bold;
     font-size: 120%;
     text-align: center;
 }
 
 
-a {
+.homeComponent a {
     transition: all 0.3s
 }
 
-a:hover {
+.homeComponent a:hover {
     transform: scale(1.1)
 }
 

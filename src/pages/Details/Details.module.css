@@ -1,0 +1,50 @@
+.detailsComponent h1 {
+    margin: 3rem 0;
+}
+
+.detailsComponent .movie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.detailsComponent img {
+    width: 300px;
+    border-radius: 1rem;
+}
+
+.detailsComponent .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4rem;
+    max-width: 50%;
+}
+
+.detailsComponent button {
+    background: #6654da;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    font-size: 100%;
+    transition: 0.5s;
+}
+
+.detailsComponent button:hover {
+    background: #5848c2;
+}
+
+.detailsComponent span {
+    line-height: 130%;
+    margin-bottom: 1rem;
+    font-size: 110%;
+}
+
+.detailsComponent .releaseDate {
+    opacity: 0.5;
+}
+
