@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-keyapi
+src/keyapi/*
 
 # testing
 /coverage
